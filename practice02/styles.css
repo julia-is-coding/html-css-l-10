@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.beige-box {
+    background-color: beige;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1rem;
+    border: 1px solid blue;
+    font-size: 2rem;
+    color: black; 
+    padding: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}

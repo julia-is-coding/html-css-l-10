@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+	background-color: lightgray;
+	text-align: center;
+	padding: 15px;
+	padding-bottom: 0;
+}
+.image {
+	width: 50px;
+	display: block; 
+	margin: auto;
+}
+.item {
+	display: inline-block;
+	background-color: gray;
+	padding: 10px 15px;
+	margin-top: 15px;
+	color: white;
+	font-size: 20px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (min-width: 600px) {
+	.container {
+		padding: 0;
+	}
+	.image {
+		height: 50px;
+		float: left;
+		margin: 0;
+	}
+	.item {
+		margin: 0;
+		height: 50px;
+		float: left;
+	}
+	.itemright {
+		float: right;
+	}
+	.itemleft {
+		float: left;
+		margin-left: 15px;	
+	}
+}
